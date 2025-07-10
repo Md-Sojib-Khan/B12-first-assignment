@@ -1,0 +1,27 @@
+
+
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 100px;
+}
+
+.btn-primary {
+    padding: 10px 30px;
+    border: none;
+    border-radius: 6px;
+    background-color: #4E47FF;
+    color: white;
+}
+.btn-primary:hover {
+    background-color: orangered;
+}
+
+.brand-name {
+    font-size: 30px;
+    font-weight: bolder;
+    color: #4E47FF;
+}
