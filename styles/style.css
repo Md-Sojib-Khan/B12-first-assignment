@@ -191,6 +191,34 @@ p {
 }
 
 
+/* ready to focus section */
+
+.ready-to-focus {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 15px;
+    margin-top: 100px;
+}
+
+.ready-to-focus img {
+    border-radius: 50px;
+}
+
+.ready-to-focus h3 {
+    font-size: 40px;
+    font-weight: bold;
+    color: #000000;
+    margin: 0px;
+}
+
+.ready-to-focus p {
+    margin: 10px 0px;
+}
+
+
 /* from section */
 
 .form-container {
@@ -217,20 +245,21 @@ p {
     font-size: 12px;
     font-weight: 600;
     color: #000000;
+    margin-bottom: 5px;
 }
 
 .input-box {
     padding: 15px 180px 15px 15px;
     border: none;
     border-radius: 10px;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
 }
 
 textarea {
     padding: 15px;
     border: none;
     border-radius: 10px;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
 }
 
 /* footer section style */
