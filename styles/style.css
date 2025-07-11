@@ -103,7 +103,7 @@ p {
 /* productive user style */
 
 .Productive-user-container {
-    background-color: rgba(78, 71, 255, 0.2);
+    background-color: rgba(78, 71, 255, 0.1);
     padding: 20px 50px;
     border-radius: 20px;
     margin-bottom: 100px;
@@ -197,13 +197,14 @@ p {
     display: flex;
     justify-content: space-between;
     margin-top: 100px;
-    padding: 50px 0px;
+    padding-bottom: 30px;
 }
 
 .get-in-touch {
     font-size: 80px;
     font-weight: bold;
     color: #000000;
+    padding-top: 30px;
 }
 
 .from-conent {
@@ -219,7 +220,7 @@ p {
 }
 
 .input-box {
-    padding: 15px;
+    padding: 15px 180px 15px 15px;
     border: none;
     border-radius: 10px;
     margin-bottom: 15px;
@@ -230,4 +231,37 @@ textarea {
     border: none;
     border-radius: 10px;
     margin-bottom: 15px;
+}
+
+/* footer section style */
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #ffffff;
+    padding-bottom: 30px;
+}
+
+.footer-logo {
+    font-size: 85px;
+    font-weight: bolder;
+    color: #4E47FF;
+    margin-bottom: 0px;
+}
+
+.menu ul {
+    display: flex;
+}
+
+.menu li {
+    list-style: none;
+    margin-right: 30px;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: #8987A1;
 }
