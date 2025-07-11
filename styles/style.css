@@ -58,6 +58,14 @@ nav {
     color: #252432;
 }
 
+/* body background */
+
+.bg-color {
+    background-color: rgba(78, 71, 255, 0.1);
+}
+
+
+
 /* main section body with */
 
 .shape {
@@ -122,7 +130,7 @@ p {
 }
 
 
-/* challange */
+/* what our users say section */
 
 
 .users-say {
@@ -180,4 +188,46 @@ p {
     margin: 0;
     font-size: 15px;
     opacity: 0.6;
+}
+
+
+/* from section */
+
+.form-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    padding: 50px 0px;
+}
+
+.get-in-touch {
+    font-size: 80px;
+    font-weight: bold;
+    color: #000000;
+}
+
+.from-conent {
+    display: flex;
+    flex-direction: column;
+    margin: 30px 0px;
+}
+
+.from-title {
+    font-size: 12px;
+    font-weight: 600;
+    color: #000000;
+}
+
+.input-box {
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+textarea {
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 15px;
 }
